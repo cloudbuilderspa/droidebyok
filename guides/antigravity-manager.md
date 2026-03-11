@@ -12,6 +12,12 @@
 | Claude (Anthropic) | `anthropic` | `http://127.0.0.1:8045` |
 | Gemini / GPT (OpenAI-compatible) | `openai` | `http://127.0.0.1:8045/v1` |
 
+### Recommended Setup
+Use the interactive script:
+```bash
+bash scripts/setup-byok.sh
+```
+
 ### Example (settings.json)
 ```json
 {
@@ -57,6 +63,12 @@
 |---|---|---|
 | Claude (Anthropic) | `anthropic` | `http://127.0.0.1:8045` |
 | Gemini / GPT (OpenAI-compatible) | `openai` | `http://127.0.0.1:8045/v1` |
+
+### Setup Recomendado
+Usa el script interactivo:
+```bash
+bash scripts/setup-byok.sh
+```
 
 ### Ejemplo (settings.json)
 ```json
