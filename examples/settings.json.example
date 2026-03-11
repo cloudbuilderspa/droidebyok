@@ -1,0 +1,31 @@
+{
+  "customModels": [
+    {
+      "model": "glm-5",
+      "displayName": "GLM-5",
+      "baseUrl": "https://api.z.ai/api/coding/paas/v4",
+      "apiKey": "<ZAI_API_KEY>",
+      "provider": "generic-chat-completion-api",
+      "maxOutputTokens": 131072,
+      "stream": true
+    },
+    {
+      "model": "claude-opus-4-6-thinking",
+      "displayName": "AG: Claude Opus 4.6 Thinking",
+      "baseUrl": "http://127.0.0.1:8045",
+      "apiKey": "<AG_API_KEY>",
+      "provider": "anthropic",
+      "maxOutputTokens": 4096,
+      "stream": true
+    },
+    {
+      "model": "gpt-5.2-codex",
+      "displayName": "VP: GPT-5.2 Codex",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "apiKey": "<VIBEPROXY_OAUTH_TOKEN>",
+      "provider": "openai",
+      "maxOutputTokens": 4096,
+      "stream": true
+    }
+  ]
+}
