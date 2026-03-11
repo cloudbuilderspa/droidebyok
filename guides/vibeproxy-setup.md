@@ -7,12 +7,7 @@
 2. Move `VibeProxy.app` to `/Applications`.
 3. Open the app and authenticate (Claude/ChatGPT/Gemini as supported).
 
-### Configure Models
-Use **one** of these files (prefer `settings.json`):
-- `~/.factory/settings.json` (camelCase)
-- `~/.factory/config.json` (snake_case, legacy)
-
-VibeProxy endpoints:
+### Endpoints
 - Anthropic-compatible: `http://127.0.0.1:8317`
 - OpenAI-compatible: `http://127.0.0.1:8317/v1`
 
@@ -22,6 +17,12 @@ If the model name starts with `gpt-`, Droid enforces the `openai` provider. Ensu
 2. `"provider": "openai"`.
 3. `"baseUrl": "http://127.0.0.1:8317/v1"`.
 4. Restart Droid after config changes (cache may keep old URLs).
+
+### Recommended Setup
+Use the interactive script:
+```bash
+bash scripts/setup-byok.sh
+```
 
 ### Example (config.json)
 ```json
@@ -49,12 +50,7 @@ If the model name starts with `gpt-`, Droid enforces the `openai` provider. Ensu
 2. Mueve `VibeProxy.app` a `/Applications`.
 3. Abre la app y autentica las cuentas soportadas.
 
-### Configurar Modelos
-Usa **solo uno** de estos archivos (preferir `settings.json`):
-- `~/.factory/settings.json` (camelCase)
-- `~/.factory/config.json` (snake_case, legacy)
-
-Endpoints de VibeProxy:
+### Endpoints
 - Anthropic-compatible: `http://127.0.0.1:8317`
 - OpenAI-compatible: `http://127.0.0.1:8317/v1`
 
@@ -64,6 +60,12 @@ Si el modelo inicia con `gpt-`, Droid exige `provider: openai`. Asegura:
 2. `"provider": "openai"`.
 3. `"baseUrl": "http://127.0.0.1:8317/v1"`.
 4. Reinicia Droid después de cambios (cache de URLs).
+
+### Setup Recomendado
+Usa el script interactivo:
+```bash
+bash scripts/setup-byok.sh
+```
 
 ### Ejemplo (config.json)
 ```json
