@@ -8,7 +8,15 @@ This repo documents a **sanitized** setup for running BYOK models with Factory D
 1. Read **BYOK basics**: `guides/byok-setup.md`
 2. Install & configure **VibeProxy**: `guides/vibeproxy-setup.md`
 3. Configure **Antigravity Manager**: `guides/antigravity-manager.md`
-4. Copy sanitized examples from `examples/` and replace placeholders locally.
+4. Run the interactive setup script:
+   ```bash
+   bash scripts/setup-byok.sh
+   ```
+
+### What the Script Does
+- Prompts you for API keys (manual input).
+- Backs up existing `~/.factory/settings.json` and `~/.factory/config.json`.
+- Writes **both** config files with VibeProxy + Antigravity models.
 
 ### Safety Notes
 - Never commit real API keys. Use placeholders like `<API_KEY>`.
@@ -26,6 +34,8 @@ public-byok-guide/
   examples/
     settings.json.example
     config.json.example
+  scripts/
+    setup-byok.sh
 ```
 
 ---
@@ -38,7 +48,15 @@ Este repo documenta una configuración **sanitizada** para usar modelos BYOK con
 1. Lee **BYOK básico**: `guides/byok-setup.md`
 2. Instala y configura **VibeProxy**: `guides/vibeproxy-setup.md`
 3. Configura **Antigravity Manager**: `guides/antigravity-manager.md`
-4. Copia los ejemplos de `examples/` y reemplaza los placeholders en local.
+4. Ejecuta el script interactivo:
+   ```bash
+   bash scripts/setup-byok.sh
+   ```
+
+### Qué Hace el Script
+- Pide tus API keys manualmente.
+- Respalda `~/.factory/settings.json` y `~/.factory/config.json`.
+- Escribe **ambos** archivos con modelos VibeProxy + Antigravity.
 
 ### Notas de Seguridad
 - Nunca publiques API keys reales. Usa placeholders como `<API_KEY>`.
