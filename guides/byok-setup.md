@@ -12,6 +12,13 @@ Factory Droid supports two config files, but **prefer `settings.json`**:
 
 **Rule:** Do not define the same model in both files.
 
+### Providers Supported by the Script
+- VibeProxy
+- Antigravity Manager
+- Z.AI GLM
+- MiniMax
+- Kimi
+
 ### Provider & Endpoint Mapping
 Use the correct provider for each endpoint:
 
@@ -53,6 +60,13 @@ Factory Droid soporta dos archivos, pero **se recomienda `settings.json`**:
 | `~/.factory/config.json` | Legacy / reservado | snake_case (`base_url`, `api_key`) |
 
 **Regla:** No definas el mismo modelo en ambos archivos.
+
+### Providers Soportados por el Script
+- VibeProxy
+- Antigravity Manager
+- Z.AI GLM
+- MiniMax
+- Kimi
 
 ### Provider y Endpoint
 Usa el provider correcto según el endpoint:
