@@ -19,7 +19,7 @@ If the model name starts with `gpt-`, Droid enforces the `openai` provider. Ensu
 4. Restart Droid after config changes (cache may keep old URLs).
 
 ### Recommended Setup
-Use the interactive script:
+Use the interactive script and select only the models you want:
 ```bash
 bash scripts/setup-byok.sh
 ```
@@ -62,7 +62,7 @@ Si el modelo inicia con `gpt-`, Droid exige `provider: openai`. Asegura:
 4. Reinicia Droid después de cambios (cache de URLs).
 
 ### Setup Recomendado
-Usa el script interactivo:
+Usa el script interactivo y selecciona solo los modelos que quieras:
 ```bash
 bash scripts/setup-byok.sh
 ```
