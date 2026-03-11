@@ -13,7 +13,7 @@
 | Gemini / GPT (OpenAI-compatible) | `openai` | `http://127.0.0.1:8045/v1` |
 
 ### Recommended Setup
-Use the interactive script:
+Use the interactive script and select only the models you want:
 ```bash
 bash scripts/setup-byok.sh
 ```
@@ -65,7 +65,7 @@ bash scripts/setup-byok.sh
 | Gemini / GPT (OpenAI-compatible) | `openai` | `http://127.0.0.1:8045/v1` |
 
 ### Setup Recomendado
-Usa el script interactivo:
+Usa el script interactivo y selecciona solo los modelos que quieras:
 ```bash
 bash scripts/setup-byok.sh
 ```
