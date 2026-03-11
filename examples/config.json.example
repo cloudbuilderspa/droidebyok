@@ -1,0 +1,22 @@
+{
+  "custom_models": [
+    {
+      "model": "claude-opus-4-6-thinking",
+      "model_display_name": "AG: Claude Opus 4.6 Thinking",
+      "base_url": "http://127.0.0.1:8045",
+      "api_key": "<AG_API_KEY>",
+      "provider": "anthropic",
+      "max_tokens": 4096,
+      "stream": true
+    },
+    {
+      "model": "gpt-5.2-codex",
+      "model_display_name": "VP: GPT-5.2 Codex",
+      "base_url": "http://127.0.0.1:8317/v1",
+      "api_key": "<VIBEPROXY_OAUTH_TOKEN>",
+      "provider": "openai",
+      "max_tokens": 4096,
+      "stream": true
+    }
+  ]
+}
