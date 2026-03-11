@@ -26,22 +26,12 @@ Use the correct provider for each endpoint:
 ### Streaming Required
 Always set `"stream": true` for custom models. Some providers require streaming for long operations.
 
-### Example (settings.json)
-```json
-{
-  "customModels": [
-    {
-      "model": "glm-5",
-      "displayName": "GLM-5",
-      "baseUrl": "https://api.z.ai/api/coding/paas/v4",
-      "apiKey": "<ZAI_API_KEY>",
-      "provider": "generic-chat-completion-api",
-      "maxOutputTokens": 131072,
-      "stream": true
-    }
-  ]
-}
+### Interactive Setup (Recommended)
+Run the script to configure both files with safe defaults:
+```bash
+bash scripts/setup-byok.sh
 ```
+The script backs up existing files before writing.
 
 ### Common Errors
 | Error | Cause | Fix |
@@ -78,19 +68,9 @@ Usa el provider correcto según el endpoint:
 ### Streaming Requerido
 Siempre usa `"stream": true` en modelos custom.
 
-### Ejemplo (settings.json)
-```json
-{
-  "customModels": [
-    {
-      "model": "glm-5",
-      "displayName": "GLM-5",
-      "baseUrl": "https://api.z.ai/api/coding/paas/v4",
-      "apiKey": "<ZAI_API_KEY>",
-      "provider": "generic-chat-completion-api",
-      "maxOutputTokens": 131072,
-      "stream": true
-    }
-  ]
-}
+### Setup Interactivo (Recomendado)
+Ejecuta el script para configurar ambos archivos:
+```bash
+bash scripts/setup-byok.sh
 ```
+El script crea backups antes de escribir.
