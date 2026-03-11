@@ -15,8 +15,10 @@ This repo documents a **sanitized** setup for running BYOK models with Factory D
 
 ### What the Script Does
 - Prompts you for API keys (manual input).
+- Prompts you to select providers and models.
+- Supports **VibeProxy, Antigravity, Z.AI GLM, MiniMax, Kimi**.
 - Backs up existing `~/.factory/settings.json` and `~/.factory/config.json`.
-- Writes **both** config files with VibeProxy + Antigravity models.
+- Writes **both** config files with selected models.
 
 ### Safety Notes
 - Never commit real API keys. Use placeholders like `<API_KEY>`.
@@ -55,8 +57,10 @@ Este repo documenta una configuración **sanitizada** para usar modelos BYOK con
 
 ### Qué Hace el Script
 - Pide tus API keys manualmente.
+- Te deja elegir providers y modelos.
+- Soporta **VibeProxy, Antigravity, Z.AI GLM, MiniMax, Kimi**.
 - Respalda `~/.factory/settings.json` y `~/.factory/config.json`.
-- Escribe **ambos** archivos con modelos VibeProxy + Antigravity.
+- Escribe **ambos** archivos con los modelos seleccionados.
 
 ### Notas de Seguridad
 - Nunca publiques API keys reales. Usa placeholders como `<API_KEY>`.
